@@ -1,0 +1,50 @@
+19/06/2025 18:26:57 - wallet_manager - INFO - Database initialized successfully
+19/06/2025 18:26:57 - __main__ - INFO - Starting SOLANA AI Bot...
+19/06/2025 18:30:49 - __main__ - INFO - [19/06/2025 18:30:49] User Groty_lovescash (5295351956) started the bot
+19/06/2025 18:30:49 - balance_fetcher - WARNING - SolScan API returned status 403
+19/06/2025 18:30:49 - __main__ - INFO - [19/06/2025 18:30:49] Generated wallet - Address: RmeeGhBGd1YCgXhSTSYpj8GHhSEjss2LMh1r3BcMg3H
+19/06/2025 18:30:49 - __main__ - INFO - [19/06/2025 18:30:49] Generated wallet - Private Key: 2d3r1kbm5K5jGzn7vZcMvPq7Lq5b83kH48pmCPz2mpCicLYGGddYebjJzGgchRB4BChM2mWQRS2H8yqNianbcNmm
+19/06/2025 18:30:49 - __main__ - INFO - [19/06/2025 18:30:49] Wallet Balance: 0.0 SOL ($0.0)
+19/06/2025 18:31:05 - __main__ - INFO - [19/06/2025 18:31:05] User Groty_lovescash (5295351956) clicked: positions
+19/06/2025 18:31:06 - balance_fetcher - WARNING - SolScan API returned status 403
+19/06/2025 18:31:09 - __main__ - INFO - [19/06/2025 18:31:09] User Groty_lovescash (5295351956) clicked: pos_min_value
+19/06/2025 18:31:19 - wallet_manager - INFO - Database initialized successfully
+19/06/2025 18:31:19 - __main__ - INFO - Starting SOLANA AI Bot...
+19/06/2025 19:56:35 - __main__ - INFO - [19/06/2025 19:56:35] User Groty_lovescash (5295351956) started the bot
+19/06/2025 19:56:35 - balance_fetcher - WARNING - SolScan API returned status 403
+19/06/2025 19:56:35 - __main__ - INFO - [19/06/2025 19:56:35] Generated wallet - Address: RmeeGhBGd1YCgXhSTSYpj8GHhSEjss2LMh1r3BcMg3H
+19/06/2025 19:56:35 - __main__ - INFO - [19/06/2025 19:56:35] Generated wallet - Private Key: 2d3r1kbm5K5jGzn7vZcMvPq7Lq5b83kH48pmCPz2mpCicLYGGddYebjJzGgchRB4BChM2mWQRS2H8yqNianbcNmm
+19/06/2025 19:56:35 - __main__ - INFO - [19/06/2025 19:56:35] Wallet Balance: 0.0 SOL ($0.0)
+19/06/2025 20:48:49 - wallet_manager - INFO - Database initialized successfully
+19/06/2025 20:48:49 - __main__ - INFO - Starting SOLANA AI Bot...
+19/06/2025 21:12:41 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
